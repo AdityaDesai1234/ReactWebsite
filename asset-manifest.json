@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactWebsite/static/css/main.05405cf3.css",
+    "main.js": "/ReactWebsite/static/js/main.79265c84.js",
+    "static/js/787.3dcc80ee.chunk.js": "/ReactWebsite/static/js/787.3dcc80ee.chunk.js",
+    "static/media/hero.png": "/ReactWebsite/static/media/hero.4f1b5aef185bed06eacc.png",
+    "static/media/undraw_personal_training_0dqn.png": "/ReactWebsite/static/media/undraw_personal_training_0dqn.59d62b3b32f5e849e5bb.png",
+    "static/media/undraw_Personal_trainer_re_cnua.png": "/ReactWebsite/static/media/undraw_Personal_trainer_re_cnua.989e8e5ab91c82a7cbae.png",
+    "static/media/undraw_indoor_bike_pwa4.png": "/ReactWebsite/static/media/undraw_indoor_bike_pwa4.99566d19d79cbb24f367.png",
+    "static/media/undraw_Meditation_re_gll0.png": "/ReactWebsite/static/media/undraw_Meditation_re_gll0.1de61435f3b91e9a223d.png",
+    "static/media/undraw_Working_out_re_nhkg.png": "/ReactWebsite/static/media/undraw_Working_out_re_nhkg.e76ed8d638da15e7da0b.png",
+    "static/media/undraw_Pilates_ltw9.png": "/ReactWebsite/static/media/undraw_Pilates_ltw9.f1e94d0398acce710aab.png",
+    "index.html": "/ReactWebsite/index.html",
+    "main.05405cf3.css.map": "/ReactWebsite/static/css/main.05405cf3.css.map",
+    "main.79265c84.js.map": "/ReactWebsite/static/js/main.79265c84.js.map",
+    "787.3dcc80ee.chunk.js.map": "/ReactWebsite/static/js/787.3dcc80ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05405cf3.css",
+    "static/js/main.79265c84.js"
+  ]
+}
