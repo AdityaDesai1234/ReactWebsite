@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    background-color: #ffffff !important;
+    height: 100px;
+}
+.navbar-brand{
+    font-size: 2vw !important;
+    font-weight: 700;
+    color: #6c63ff !important;
+}
+.nav-link {
+    font-size: 2vw;
+    text-transform: capitalize;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+    border-bottom: 2px solid #6c63ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link:hover{
+    color: #6c63ff !important;
+}
+/* Home */
+#header{
+    height: calc(100% - 100px);
+    width: 100%;
+}
+#services{
+    height: calc(100% - 100px);
+    width: 100%;
+}
+#Contact{
+    height: calc(100% - 100px);
+    width: 100%;
+}
+.left{
+     height: 100%;
+    /* width: 50%; */
+    /* padding: 5vw 4vw; */
+    
+}
+.right{
+   
+}
+.left h1{
+    font-size: 4.9vw;
+    font-weight:700;
+    line-height: 5vw;  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.left h1 span{
+    color: #6c63ff;
+    font-size: 5.5vw;
+}
+.left p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 100%;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+    line-height: 1.5vw;
+    
+}
+#header button{
+    width: 40%;
+    font-size: 1.2vw;
+    padding: 1vw 2.5vw;
+    background-color:#6c63ff ;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.right img{
+    height: 100%;
+    width: 100%;
+}   
+#services{
+    height: calc(100% - 100px);
+    width: 100%;
+}
+.card{
+    height: 100% !important;
+}
+.card-img-top{
+   width: 100% !important;
+   height: 100% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+@media (max-width: 480px)
+{
+    .navbar-brand {
+        font-size: 8vw !important;
+        font-weight: 700;
+        color: #6c63ff !important;
+    }
+    .left h1 {
+        font-size: 17vw;
+        font-weight: 700;
+        line-height: 15vw;
+    }
+    .left h1 span {
+        color: #6c63ff;
+        font-size: 10.5vw;
+    }
+    .left p {
+        font-size: 4.2vw;
+        font-weight: 600;
+        color: #666;
+        width: 100%;
+        margin-top: 2vw;
+        margin-bottom: 3vw;
+        line-height: 4.5vw;
+    }
+    #header button {
+        width: 40%;
+        font-size: 4.2vw;
+        padding: 3vw 2.5vw;
+        background-color: #6c63ff;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        font-weight: 700;
+    }
+    #header {
+        height: calc(100% - 100px);
+        width: 100%;
+        padding-top: 100px;
+    }
+    #services {
+        height: calc(100% - 100px);
+        width: 100%;
+        padding-top: 150px;
+    }
+    #Contact {
+        height: calc(100% - 100px);
+        width: 100%;
+        padding-top: 150px;
+    }
 }
+
+
